@@ -1,0 +1,27 @@
+POST http://productivity.vistaarfinance.net.in:92/SVC_Lead.svc/GetBranchList
+
+###
+POST http://productivity.vistaarfinance.net.in:98/SVC_Lead.svc/AddCandidate
+Content-Type: application/json
+
+{
+  "Name": "Harshita",
+  "Gender": "F",
+  "DOB": "03-02-2019",
+  "TotalExp": "4",
+  "CurrentCTC": "4",
+  "CurrentCompany": "vistaar",
+  "Email": "harika0805@gmail.com",
+  "Mobile": "9035642572",
+  "PAN":"ANJPH2836B",
+  "SourceHire":"Online",
+  "Role": "Software",
+  "Designation": "Deputy manager",
+  "CreatedID": "17195",
+  "BranchId": "0000",
+  "BranchName": "HO",
+  "Cluster": "Banglore",
+  "State": "Karnataka"
+}
+
+###
